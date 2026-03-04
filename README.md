@@ -7,7 +7,7 @@ Bem-vindo ao meu repositório de estudos de Python! Aqui eu documento minha evol
 | Módulo | Descrição | Status |
 | :--- | :--- | :--- |
 | [Python PowerUp](./PYTHON_POWERUP/README.md) | Automação de processos usando Pandas. | ✅ Concluído |
-| [Tratamento de Dados](./TRATAMENTO-DADOS/README.md) | Limpeza de datasets e manipulação avançada. | 🚧 Em breve |
+| [Analise de Dados](./ANALISE_DADOS/README.md) | Limpeza de datasets e manipulação avançada. | 🚧 Em breve |
 
 ---
 ## 🎯 Objetivo
