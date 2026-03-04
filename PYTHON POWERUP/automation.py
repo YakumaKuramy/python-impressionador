@@ -2,7 +2,11 @@ import pyautogui
 import time
 import random 
 import pandas as pd
+from pathlib import Path 
+
 pyautogui.PAUSE = 0.5
+
+current_path = Path(__file__).parent
 
 browser = input("Informe o navegador que deseja abrir: ")
 link_site = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
@@ -30,8 +34,10 @@ pyautogui.write(password)
 pyautogui.press("tab")
 pyautogui.press("enter")
 
-table = pd.read_csv("PYTHON POWERUP/dados.csv")
+path_csv = current_path / "dados.csv"
 
+# table = pd.read_csv("PYTHON POWERUP/dados.csv")
+table = pd.read_csv(path_csv)
 mouse_postion_x = -959
 mouse_postion_y = 253
 
